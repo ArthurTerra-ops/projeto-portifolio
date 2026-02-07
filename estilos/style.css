@@ -72,6 +72,10 @@ section#ficha{
   grid-column: 2;
 
 }
+
+section#detalhes{
+  grid-column: 2;
+}
 section#ficha img.foto{
     aspect-ratio: 1/1 ;
     object-fit: cover;
@@ -110,4 +114,15 @@ div#social a:hover{
   color: var(--destaque-inverso);
   box-shadow:  0px 0px 3px rgba(0, 0, 0, 0.46);
   border-radius: 20%;
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+article h2{
+  color: var(--destaque);
+  margin-bottom: 10px;
 }
