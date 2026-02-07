@@ -103,9 +103,11 @@ div#social {
 
 div#social a{
  color: var(--destaque);
- transition: color .5s;
+ transition: all .5s;
 }
 
 div#social a:hover{
   color: var(--destaque-inverso);
+  box-shadow:  0px 0px 3px rgba(0, 0, 0, 0.46);
+  border-radius: 20%;
 }
